@@ -26,4 +26,8 @@ public class Jtest extends TestCase{
 	{
 		assertEquals("BCD",Junitobject.BringIt("BACD"));	
 	}	
+	public void test6()
+	{
+		assertEquals("BCDE",Junitobject.BringIt("BCDE"));	
+	}	
 }
